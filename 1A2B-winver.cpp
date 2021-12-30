@@ -2,7 +2,6 @@
  * 自主學習C++實作
  * created by SHCH 210 04 宋辰星
  * for Mac&Linux 因為sleep的方式在兩種系統中不一樣，故分成兩種版本。
- * last ver:2.0.1(新增check()來檢查userin) 2021/12/24
 *********************************************************/
 #include <iostream>
 #include <cstdlib>

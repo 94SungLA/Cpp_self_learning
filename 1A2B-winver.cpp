@@ -82,7 +82,7 @@ int main()
                 {
                     if (A[i] == B[j] and i != j) //數字對且位置錯
                         b++;
-                    else if (A[i] == B[j] and i == j) //數字對且位置對
+                    if (A[i] == B[j] and i == j) //數字對且位置對
                         a++;
                 }
             }

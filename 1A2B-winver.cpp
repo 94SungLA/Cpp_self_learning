@@ -48,13 +48,13 @@ int main()
 {
     //intro
     cout << "這是一個叫做「1A2B」的經典猜數字遊戲，" << endl;
-    Sleep(1);
+    Sleep(1000);
     cout << "A代表數字及位置皆正確，B代表數字正確但位置錯誤，" << endl;
-    Sleep(1);
+    Sleep(1000);
     cout << "我會隨機出題，題目為一組不含0且數字不重複的四位數，" << endl;
-    Sleep(1);
+    Sleep(1000);
     cout << "遊戲開始，" << endl;
-    Sleep(1);
+    Sleep(1000);
     cout << "請請開始輸入你猜的數字：" << endl;
 
     srand(time(NULL)); //使用 srand()來設定亂數種子，亂數種子為當前時間，因此每次遊戲的亂數種子都會不一樣。

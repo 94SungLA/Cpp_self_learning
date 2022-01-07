@@ -68,7 +68,7 @@ int main()
         cin >> userin;
         times++;
         //把userin的四位數切開並存入B陣列中
-        int B[] = {userin / 1000, (userin % 1000) / 100, (userin % 100) / 10, userin % 10};
+        int B[4] = {userin / 1000, (userin % 1000) / 100, (userin % 100) / 10, userin % 10};
         //檢查userin格式並將check()的回傳值存入result
         int result = check(userin, B);
 
